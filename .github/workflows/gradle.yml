@@ -68,7 +68,7 @@ jobs:
     - name: 'Push image'
       uses: azure/docker-login@v1
       with:
-        login-server: ${{ secrets.STAP_ACR_LOGIN_SERVER }}
+        login-server: ${{ secrets.STAPACR_LOGIN_SERVER }}
         username: ${{ secrets.STAP_ACR_USERNAME }}
         password: ${{ secrets.REGISTRY_PASSWORD }}
 
